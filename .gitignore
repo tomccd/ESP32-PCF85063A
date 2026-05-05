@@ -1,0 +1,4 @@
+# Ignore directories
+.vscode/
+build/
+sdkconfig*
