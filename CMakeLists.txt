@@ -4,4 +4,5 @@ set(COMPONENT_ADD_INCLUDEDIRS
 idf_component_register(
     SRCS "./src/PCF85063A.c" "./src/timegm.c"
     INCLUDE_DIRS "include"
+    PRIV_REQUIRES driver
 )
